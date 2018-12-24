@@ -24,7 +24,7 @@ apt-get install php7.2 -y
 apt-get install php7.2-fpm php7.2-curl php7.2-json php7.2-mbstring php7.2-xml  php7.2-intl -y
 cd /var/www/
 git clone https://github.com/donwa/oneindex.git
-rm -rf /var/www/html/*
+rm -rf /var/www/html/
 mv oneindex html
 service restart apache2
 echo "安装完成。请前往 http://[IP]/ 进行程序初始化。"
