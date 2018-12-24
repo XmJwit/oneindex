@@ -5,7 +5,9 @@ LANG=en_US.UTF-8
 
 echo "OneIndex 安装脚本，By TheZihanGu"
 echo "OneIndex 将安装在 /var/www/html"
-echo "此脚本仅适用于Ubuntu和Debian系统."
+echo "此脚本仅适用于Ubuntu和Debian系统。"
+echo "将会自动安装Apache2和PHP7.2运行环境，请保证系统无安装其他Web服务端。"
+echo "[警告]将会清空/var/www/html文件夹!"
 echo "[必须]请使用root用户执行此脚本."
 echo "项目页面：https://github.com/donwa/oneindex"
 echo "Feedback：请到Issues反馈。"
