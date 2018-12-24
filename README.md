@@ -21,6 +21,15 @@ Onedrive Directory Index
 ## 配置：
 <img width="658" alt="image" src="https://raw.githubusercontent.com/donwa/oneindex/files/images/install.gif">  
 
+### 使用脚本文件安装：
+
+此脚本仅适用于Ubuntu和Debian系统。请使用root用户运行：
+
+```sh
+wget http://oss.zihangu.com/install.sh
+chmod u+x install.sh
+./install.sh
+```
 
 ### Docker 安装运行：
 
