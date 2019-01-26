@@ -26,7 +26,7 @@ Onedrive Directory Index
 此脚本仅适用于Ubuntu和Debian系统。请使用root用户运行：
 
 ```sh
-wget http://oss.zihangu.com/install.sh
+wget https://github.com/donwa/oneindex/blob/master/install.sh
 chmod u+x install.sh
 ./install.sh
 ```
